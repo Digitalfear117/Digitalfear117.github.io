@@ -97,14 +97,18 @@ nav ul li a {
 }
 
 .full-width-section img {
+    width: auto;
     max-width: 100%;
+    height: auto;
     max-height: 500px;
     margin-bottom: 10px;
 }
 
 .full-width-section .image-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
+    gap: 10px;
     width: 100%;
 }
 
