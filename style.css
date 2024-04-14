@@ -1,22 +1,11 @@
-a {
-    color: blue;
-}
+a { color: blue; }
+a:visited { color: purple; }
 
-a:visited {
-    color: purple;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-li {
-    font-size: 16px;
-}
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+li { font-size: 16px; }
+p { font-size: 14px; }
 
 body {
     background-color: #84cfdb; /* This shape might be too light */
@@ -347,21 +336,24 @@ input:checked + .slider:before {
 }
 
 @media (min-width: 641px) {
-    h2 { font-size: 26px; }
+    h1 { font-size: 30px; }
+	h2 { font-size: 26px; }
     h3 { font-size: 22px; }
     li { font-size: 20px; }
 	p { font-size: 18px; }
 }
 
 @media (min-width: 820px) {
-    h2 { font-size: 28px; }
+    h1 { font-size: 32px; }
+	h2 { font-size: 28px; }
     h3 { font-size: 24px; }
     li { font-size: 22px; }
 	p { font-size: 20px; }
 }
 
 @media (min-width: 1200px) {
-    h2 { font-size: 32px; }
+    h1 { font-size: 36px; }
+	h2 { font-size: 32px; }
     h3 { font-size: 28px; }
     li { font-size: 26px; }
 	p { font-size: 24px; }
