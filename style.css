@@ -347,6 +347,14 @@ input:checked + .slider:before {
     h3 { font-size: 22px; }
     li { font-size: 20px; }
 	p { font-size: 18px; }
+	
+	.switch {
+		position: relative;
+		display: inline-block;
+		top: 3px;
+		width: 43px;
+		height: 17px;
+	}
 }
 
 @media (min-width: 820px) {
@@ -355,6 +363,14 @@ input:checked + .slider:before {
     h3 { font-size: 24px; }
     li { font-size: 22px; }
 	p { font-size: 20px; }
+	
+	.switch {
+		position: relative;
+		display: inline-block;
+		top: 4px;
+		width: 43px;
+		height: 17px;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -363,6 +379,14 @@ input:checked + .slider:before {
     h3 { font-size: 28px; }
     li { font-size: 26px; }
 	p { font-size: 24px; }
+	
+	.switch {
+		position: relative;
+		display: inline-block;
+		top: 6px;
+		width: 43px;
+		height: 17px;
+	}
 }
 
 @media (min-width: 1600px) {
