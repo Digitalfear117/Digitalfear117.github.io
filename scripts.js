@@ -73,5 +73,6 @@ function showSection(id) {
     const section = document.querySelector(id);
     if (section) {
         section.style.display = 'block';
+        window.scrollTo(0, 0);
     }
 }
