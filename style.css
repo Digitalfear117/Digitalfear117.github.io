@@ -322,11 +322,11 @@ input:checked + .slider:before {
 	
 	.dropdown-menu {
 		position: absolute;
-		left: 50%;  /* Center the dropdown horizontally relative to the viewport */
-		transform: translateX(-50%);  /* Offset by 50% of the dropdown's width to truly center it */
-		width: auto;  /* Optional: Adjust width based on content */
-		max-width: 120px;  /* Minimum width can be adjusted based on content needs */
-		display: none;  /* Initially hidden */
+		left: 50%;
+		transform: translateX(-50%);
+		width: auto;
+		max-width: 120px;
+		display: none;
 		box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 		z-index: 1050;
 		background-color: #333;
