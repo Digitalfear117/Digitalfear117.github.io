@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log("Document ready!");
 
     const settingsWheel = document.querySelector('.settings-wheel .gear-icon');
     const dropdownMenu = document.querySelector('.dropdown-menu');
@@ -14,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
             toggleDropdown();
         });
     } else {
-        console.log("Settings wheel not found");
     }
 
     const toggle = document.getElementById('darkModeToggle');
@@ -50,7 +48,6 @@ function toggleDropdown() {
     } else {
         dropdown.style.display = 'block';
     }
-    console.log("Dropdown display style changed to:", dropdown.style.display);
 }
 
 function clearLocalStorage() {
