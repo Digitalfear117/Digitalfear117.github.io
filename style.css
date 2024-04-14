@@ -1,3 +1,11 @@
+a {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
 body {
     background-color: #84cfdb; /* This shape might be too light */
     color: black;
@@ -190,6 +198,29 @@ nav ul li a {
     color: white;
 }
 
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 0;
+    margin-right: 0;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #a6a6a6;
+}
+
 .theme-switcher {
     display: flex;
     justify-content: space-between;
@@ -247,13 +278,25 @@ input:checked + .slider:before {
     color: white;
 }
 
-.dark-mode .content section {
-    background-color: #333;
-    color: white;
+.dark-mode a {
+    color: #add8e6;
+}
+
+.dark-mode a:visited {
+    color: #d8bfd8;
 }
 
 .dark-mode nav {
     background-color: #222;
+}
+
+.dark-mode .dropdown-menu {
+    background-color: #222;
+}
+
+.dark-mode .content section {
+    background-color: #333;
+    color: white;
 }
 
 .dark-mode .class-section {
@@ -272,6 +315,29 @@ input:checked + .slider:before {
 	min-width: 361px;
 	margin-left: 3%;
 	margin-right: 3%;
+}
+
+.dark-mode table {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-mode thead th {
+    background-color: #5e5c5c;
+}
+
+.dark-mode th, .dark-mode td {
+    border-color: #555;
+}
+
+.dark-mode table, .dark-mode th, .dark-mode td {
+    border-color: #555;
+}
+
+@media screen and (max-width: 1000px) {
+    table {
+        width: 100%;
+    }
 }
 
 @media (max-width: 800px) {
