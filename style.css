@@ -438,7 +438,7 @@ input:checked + .slider:before {
 	}
 }
 
-@media (max-width: 640px) {
+@media (max-width: 641px) {
 	nav, nav *, nav ul, nav ul li {
 		box-sizing: border-box;
 	}
